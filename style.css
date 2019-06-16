@@ -1,0 +1,144 @@
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    /*O comando abaixo, evita que o padding afeta a largura e altura*/
+    box-sizing: border-box;
+  }
+
+  header{
+    background-color: #B0C4DE;
+    border: groove;
+    color: #FFFFFF;
+    padding: 64px;
+  }
+
+  nav{
+    background-color: #87CEFA;;
+    color: #FFFFFF;
+    padding: 12px;
+  }
+
+  aside{
+    background-color: #87CEFA;
+    border: groove;
+    text-align: center;
+  }
+
+  main, aside{
+    background-color: #87CEFA;
+    border: groove;
+    padding: 32px;
+    height: 700px;
+  }
+
+  main{
+    background-color: #B0C4DE;
+  }
+
+
+  footer{
+    background-color: #B0C4DE;
+    color: #FFFFFF;
+    padding: 24px;
+  }
+
+  code{
+    font-size:18pt;
+  }
+
+  @media (min-width: 768px){
+    .navbar {
+      flex-flow: row wrap;
+      justify-content: end;
+    } 
+   #container {
+    display: flex;
+    }
+   main{
+    background-color: #87CEFA;
+    flex:75%;  
+    }
+   aside{
+    background-color: #87CEFA;
+    flex:25%;  
+    }
+   }
+
+ /************
+ * NAVEGAÇÃO *
+ *************/
+
+ .navbar {
+   list-style: none;
+   display: flex;
+   flex-flow: column wrap;
+ }
+ 
+ .navbar li {
+   padding: 12px;
+   text-align: center;
+   border-top: 1px solid rgba(255, 255, 255, 0.1);
+   border-bottom: 1px solid rgba(0. 0. 0. 0.2);
+   color: #0000CD;
+ }
+
+ .navbar a{
+   font-family: sans-serif;
+   color: #0000CD;
+   text-decoration: none;
+ }
+
+ .navbar a:hover {
+   color: yellow;
+   text-decoration: underline;
+ }
+
+
+ .infoPessoal{
+    height: 25%;
+    margin-bottom: 30px;
+ }
+ 
+ .infoSobre{
+    height: 10%;
+    margin-bottom: 30px;
+ }
+
+ .infoFormacao{
+    height: 20%;
+    margin-bottom: 30px;
+ }
+ 
+ li{
+    margin-left: 15px;
+    margin-bottom: 5px;
+ }
+
+ .infoHistProfissional{
+    height: 30%;
+    margin-bottom: 30px;
+ }
+
+  h1{
+    color: #0000CD;
+ }
+  h2{
+    color: #0000CD;
+ }
+
+ h3{
+    margin-top: 10%;
+    color: #0000CD;
+ }
+  h4{
+    color: #0000CD;
+ }
+  h5{
+    color: #0000CD;
+ }
+
+ .infoHeader{
+    color: black;
+    float: right;
+ }
